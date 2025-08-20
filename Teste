@@ -1,4 +1,4 @@
-entrada = prompt("Que dia é hoje?");
+entrada = prompt("Que dia é hoje?").toLowerCase();
 if( entrada == "quarta" ){
     console.log("Hoje você sai ás 22:15");
 } else {

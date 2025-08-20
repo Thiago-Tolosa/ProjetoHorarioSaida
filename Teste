@@ -2,7 +2,7 @@ entrada = prompt("Que dia é hoje?");
 if( entrada == "quarta" ){
     console.log("Hoje você sai ás 22:15");
 } else {
-    if( entrada == "sabado" || "domingo" ){
+    if( entrada == ("sabado" || "domingo" ){
         console.log("Hoje você não tem aula");
     } else {
         console.log("Hoje você sai ás 23:05");
